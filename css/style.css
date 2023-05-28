@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding: 10px 10px 5px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #2e5b83;
+    font-size: 0.9rem;
+    color: aliceblue;
+    font-family: 'Carter One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.contact .phone {
+    position: relative;
+    top: 0;
+    left: 400px;
+    bottom: 5px;
+}
+
+.contact .mail {
+    position: relative;
+    top: 0;
+    left: 420px;
+    bottom: 5px;
+}
+
+.contact .socials {
+    position: relative;
+    top: 0;
+    left: 1100px;
+    bottom: 0;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 40%;
+}
+
+.contact .socials :active {
+    background-color: blueviolet;
+    border-radius: 40%;
+}
+
+.contact .socials :hover {
+    background-color: blueviolet;
+    border-radius: 40%;
+}
+
+.contact .socials i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px;
+    height: 21px;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Carter One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+.menu .logo {
+    position: relative;
+    right: 280px;
+    width: 250px;
+}
+
+.menu .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu .sections {
+    position: relative;
+    left: 200px;
+    padding: 10px 10px 10px 20px;
+    border: none;
+    font-family: 'Carter One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+.presentacion-img {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.37);
+}
+
+.presentacion {
+    z-index: 1;
+    position: relative;
+    left: 200px;
+    bottom: 500px;
+    font-family: 'Righteous', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgba(160, 200, 238, 0.986);
+    text-shadow: 2px 5px rgba(0, 0, 0, 0.603);
+}
