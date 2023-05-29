@@ -120,3 +120,23 @@
     color: rgba(160, 200, 238, 0.986);
     text-shadow: 2px 5px rgba(0, 0, 0, 0.603);
 }
+
+.conoce-contacta .conoce {
+    position: relative;
+    left: 250px;
+    bottom: 400px;
+    font-size: 2rem;
+    background-color: #2e5b83c2;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.conoce-contacta .contacta {
+    position: relative;
+    left: 300px;
+    bottom: 400px;
+    font-size: 2rem;
+    background-color: #000000c2;
+    color: whitesmoke;
+    text-decoration: none;
+}
