@@ -8,9 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2e5b83;
     width: 100%;
     height: 30px;
+    background-color: #2e5b83;
 }
 
 .contact .content-wrapper-contact {
@@ -76,7 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.822);
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5rem;
 }
@@ -106,16 +106,23 @@
 }
 
 .menu .content-wrapper-menu .sections-details .sections {
+    padding: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #1a1a1a;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.575);
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 25%;
+    height: 30px;
 }
 
 .presentacion-img {
     z-index: 0;
+    padding-top: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -124,7 +131,22 @@
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.37);
 }
 
-.presentacion {
+.presentacion-wrapper {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion-wrapper .presentacion-content {
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion-wrapper .presentacion-content .presentacion {
     z-index: 1;
     position: relative;
     left: 200px;
@@ -136,7 +158,7 @@
     text-shadow: 2px 5px rgba(0, 0, 0, 0.603);
 }
 
-.conoce-contacta .conoce {
+.presentacion-wrapper .presentacion-content .conoce-contacta .conoce {
     position: relative;
     left: 250px;
     bottom: 400px;
@@ -147,7 +169,7 @@
     border-radius: 10px;
 }
 
-.conoce-contacta .contacta {
+.presentacion-wrapper .presentacion-content .conoce-contacta .contacta {
     position: relative;
     left: 300px;
     bottom: 400px;
